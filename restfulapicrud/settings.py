@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'employeeapi',
+    'studentapi',
     'rest_framework'
 ]
 
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'restfulapiDB',
         'USER':'postgres',
-        'PASSWORD':'postgres',
+        'PASSWORD':'123',
         'HOST':'localhost'
     }
 }

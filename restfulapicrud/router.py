@@ -1,8 +1,8 @@
-from employeeapi.viewsets import EmployeeViewset
+from studentapi.viewsets import StudentViewset
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('employee',EmployeeViewset)
+router.register('student',StudentViewset)
 
 # localhost:p/api/employee/5
 # GET, POST, PUT, DELETE
